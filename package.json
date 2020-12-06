@@ -1,0 +1,33 @@
+{
+  "name": "cordova-filechooser",
+  "version": "0.0.0",
+  "description": "File Chooser",
+  "cordova": {
+    "id": "com.megster.cordova.FileChooser",
+    "platforms": [
+      "android",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareksip/cordova-filechooser.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-windows"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=2.8.0"
+    }
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mareksip/cordova-filechooser/issues"
+  },
+  "homepage": "https://github.com/mareksip/cordova-filechooser#readme"
+}
