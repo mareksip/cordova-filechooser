@@ -26,5 +26,19 @@
         <source-file src="src/android/FileChooser.java" target-dir="src/com/megster/cordova"/>
                         
     </platform>
+
+    <platform name="windows">
+
+        <config-file target="config.xml" parent="/*">
+         </config-file>
+
+         <js-module src="src/windows/fileChooser.js" name="fileChooser">
+             <clobbers target="fileChooser" />
+         </js-module>
+         <js-module src="src/windows/fileChooserProxy.js" name="fileChooserProxy">
+             <merges target="" />
+         </js-module>
+         
+    </platform>
     
 </plugin>
